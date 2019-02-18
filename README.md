@@ -1,3 +1,5 @@
+Contributeurs: Alba ordoñez, Matthieu Roussel, Thierry Golder, Joël Géhin, Pierre Gelade, Guillaume Soufflet
+
 # GDELT2018_Analysis
 
 The purpose of the project was to design a resilient architecture on AWS for analysing the evolution of relations between countries. 
