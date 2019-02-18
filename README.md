@@ -1,6 +1,6 @@
 Contributeurs: Matthieu Roussel, Thierry Golder, Alba Ordoñez, Joël Géhin, Pierre Gelade, Guillaume Soufflet
 
-![Gdelt](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/GDELTProjectmainpage.png)
+![Gdelt](https://github.com/albao11/GDELT2018_Analysis/blob/master/GDELTProjectmainpage.png)
 # Analyse de l’année 2018 via la base de données GDELT
 
 ## Contexte
@@ -11,7 +11,7 @@ http://andreiarion.github.io/projet2018.html
 
 ## Architecture proposée
 
-![Architecture](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Architecture.PNG)
+![Architecture](https://github.com/albao11/GDELT2018_Analysis/blob/master/Architecture.PNG)
 
 ## Chargement des fichiers .zip dans S3
 
@@ -25,23 +25,23 @@ Ce script permet d'installer Cassandra sur les trois noeuds et de le connecter �
 
 ## Traitement des fichiers et export dans Cassandra
 
-[Requete 1 et 3](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Gdelt-ETLChargCassandraReq1et3.json) (Zeppelin notebooks, format json)
+[Requete 1 et 3](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt-ETLChargCassandraReq1et3.json) (Notebook Zeppelin, format json)
 
-[Requete 2 et 4](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Gdelt-ETLChargCassandraRequete2et4.json) (Zeppelin notebooks, format json)
+[Requete 2 et 4](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt-ETLChargCassandraRequete2et4.json) (Notebook Zeppelin, format json)
 
 ## Présentation du projet
 
-[Présentation](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Projet_NoSQL_presentation_vFINAL.pptx) (format pptx)
+[Présentation](https://github.com/albao11/GDELT2018_Analysis/blob/master/Projet_NoSQL_presentation_vFINAL.pptx) (format pptx)
 
 ## Demonstration des requetes (utilisation d'angular)
 
-[Requete 1](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Gdelt_Requete1.json) (Zeppelin notebook, format json)
+[Requete 1](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt_Requete1.json) (Notebook Zeppelin, format json)
 
-[Requete 2 et 5](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Gdelt%20-%20Requ%C3%AAte2.json) (Zeppelin notebook, format json)
+[Requete 2 et 5](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt%20-%20Requ%C3%AAte2.json) (Notebook Zeppelin, format json)
 
-[Requete 3](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Gdelt_Requete3.json) (Zeppelin notebook, format json)
+[Requete 3](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt_Requete3.json) (Notebook Zeppelin, format json)
 
-[Requete 4](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Gdelt%20-%20Requ%C3%AAte4%20.json)
+[Requete 4](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt%20-%20Requ%C3%AAte4%20.json) (Notebook Zeppelin, format json)
 
-![Req2](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/Carte_Requete2.png)
+![Req2](https://github.com/albao11/GDELT2018_Analysis/blob/master/Carte_Requete2.png)
 
