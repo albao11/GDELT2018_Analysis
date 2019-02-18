@@ -1,0 +1,9 @@
+eth0      Link encap:Ethernet  HWaddr 12:CD:8B:A9:61:C4  
+          inet adr:172.31.80.139  Bcast:172.31.95.255  Masque:255.255.240.0
+          adr inet6: fe80::10cd:8bff:fea9:61c4/64 Scope:Lien
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:424181 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:83902 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 lg file transmission:1000 
+          RX bytes:618987305 (590.3 MiB)  TX bytes:5588669 (5.3 MiB)
+
