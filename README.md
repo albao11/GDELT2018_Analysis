@@ -1,9 +1,9 @@
 Contributeurs: Matthieu Roussel, Thierry Golder, Alba Ordoñez, Joël Géhin, Pierre Gelade, Guillaume Soufflet
 
 ![Gdelt](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/GDELTProjectmainpage.png)
-# Gdelt2018
-## Analyse de l’année 2018 via la base de données GDELT
+# Analyse de l’année 2018 via la base de données GDELT
 
+## Contexte
 L’objectif du projet est de concevoir un système qui permet d’analyser l’evolution des relations entre les differents pays, en étudiant le ton des mentions (positives/negatives) dans les articles médias de chaque pays.
 
 L'exercice auquel nous devions répondre est détaillé à l'adresse suivante :
