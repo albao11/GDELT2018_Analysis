@@ -21,7 +21,7 @@ Les fichiers Gdelt events et mentions de l'année 2018 ont préalablement été 
 
 Ce script permet d'installer Cassandra sur les trois noeuds et de le connecter à Spark.
 
-[Script de deploiement de Cassandra](https://github.com/MSBigData2019/Gdelt2018-GGGROS/blob/master/deployCassandra/install_cassandra.sh) (Shell script)
+[Script de deploiement de Cassandra](https://github.com/albao11/GDELT2018_Analysis/blob/master/deployCassandra/install_cassandra.sh) (Shell script)
 
 ## Traitement des fichiers et export dans Cassandra
 
