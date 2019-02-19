@@ -21,7 +21,9 @@ Nous devions être capable de répondre aux 4 requêtes suivantes:
 
 Pour stocker les données, nous avons choisi Cassandra. Cassandra est une solution offrant une capacité de réponse rapide quand il s'agit de manipuler un volume important de données. 
 Grâce à sa représentation en colonnes, cette base de données non relationnelle permet d'avoir des schémas de données flexibles, 
-même s'il est essentiel de penser à comment modéliser les données en amont. Son architecture lui permet d'évoluer dans un environnement distribué. 
+même s'il est essentiel de penser à comment modéliser les données en amont. Son architecture lui permet d'évoluer dans un environnement distribué.
+
+Pour être résiliant à la perte d'un noeud, nous avons choisi de travailler sur un cluster composé de 3 noeuds et avons utilisé un facteur de réplication de 2 pour nos données.
 
 ## Chargement des fichiers .zip dans S3
 
