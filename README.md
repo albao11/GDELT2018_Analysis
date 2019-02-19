@@ -63,7 +63,7 @@ Ci-dessous est présenté le temps de réponse pour requêter:
 
 [Présentation](https://github.com/albao11/GDELT2018_Analysis/blob/master/Projet_NoSQL_presentation_vFINAL.pptx) (format pptx)
 
-## Demonstration des requetes (utilisation d'angular)
+## Démonstration des requêtes (utilisation d'angular)
 
 [Requete 1](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt_Requete1.json) (Notebook Zeppelin, format json)
 
