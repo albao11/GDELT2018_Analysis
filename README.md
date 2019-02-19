@@ -21,9 +21,9 @@ Nous devions être capable de répondre aux 4 requêtes suivantes:
 
 Pour stocker les données, nous avons choisi Cassandra. Cassandra est une solution offrant une capacité de réponse rapide quand il s'agit de manipuler un volume important de données. 
 Grâce à sa représentation en colonnes, cette base de données non relationnelle permet d'avoir des schémas de données flexibles, 
-même s'il est essentiel de penser à comment modéliser les données en amont. Son architecture lui permet d'évoluer dans un environnement distribué.
+même s'il est essentiel de penser à comment organiser les données en amont. Son architecture lui permet d'évoluer dans un environnement distribué.
 
-Pour être résiliant à la perte d'un noeud, nous avons choisi de travailler sur un cluster composé de 3 noeuds et avons utilisé un facteur de réplication de 2 pour nos données.
+Pour être résiliant à la perte d'un noeud, nous avons choisi de travailler sur un cluster composé de 3 noeuds et avons utilisé un facteur de réplication de 2 pour nos données dans la base Cassandra.
 
 ## Chargement des fichiers .zip dans S3
 
@@ -35,13 +35,30 @@ Ce script permet d'installer Cassandra sur les trois noeuds et de le connecter �
 
 [Script de deploiement de Cassandra](https://github.com/albao11/GDELT2018_Analysis/blob/master/deployCassandra/install_cassandra.sh) (Shell script)
 
+## Performance de la modélisation
+
+Afin d'être capable de répondre aux 4 requêtes présentées précedemment, nous avons construit 4 tables agrégées 
+que nous  avons stockées sous Cassandra. 
+Voici la volumétrie des tables construites sous Cassandra:
+- **Table 1** (1 an de données): 6.6 Go
+- **Table 2** (1 an de données): 9.5 Go
+- **Table 3** (9 mois de données): 20.75 Go
+- **Table 4** (1 an de données): 9 Go
+**TOTAL**: 46.75 Go
+
+Ci-dessous est présenté le temps de réponse pour requêter:
+- **Table 1** : ~2s
+- **Table 2** : ~3s
+- **Table 3** : ~3s
+- **Table 4** : ~3s
+
 ## Traitement des fichiers et export dans Cassandra
 
 [Requete 1 et 3](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt-ETLChargCassandraReq1et3.json) (Notebook Zeppelin, format json)
 
 [Requete 2 et 4](https://github.com/albao11/GDELT2018_Analysis/blob/master/Gdelt-ETLChargCassandraRequete2et4.json) (Notebook Zeppelin, format json)
 
-## Présentation du projet
+## Présentation résumant notre travail lors de ce projet
 
 [Présentation](https://github.com/albao11/GDELT2018_Analysis/blob/master/Projet_NoSQL_presentation_vFINAL.pptx) (format pptx)
 
