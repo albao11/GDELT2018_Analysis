@@ -27,7 +27,7 @@ Pour être résiliant à la perte d'un noeud, nous avons choisi de travailler su
 
 ## Chargement des fichiers .zip dans S3
 
-Les fichiers Gdelt events et mentions de l'année 2018 ont préalablement été chargés sur S3.
+Les fichiers GDELT 'events' et 'mentions' de l'année 2018 ont préalablement été chargés sur S3.
 
 ## Scripts de déploiement de Cassandra
 
