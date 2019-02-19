@@ -44,6 +44,7 @@ Voici la volumétrie des tables construites sous Cassandra:
 - **Table 2** (1 an de données): 9.5 Go
 - **Table 3** (9 mois de données): 20.75 Go
 - **Table 4** (1 an de données): 9 Go
+
 **TOTAL**: 46.75 Go
 
 Ci-dessous est présenté le temps de réponse pour requêter:
