@@ -19,11 +19,7 @@ Nous devions être capable de répondre aux 4 requêtes suivantes:
 
 ![Architecture](https://github.com/albao11/GDELT2018_Analysis/blob/master/Architecture.PNG)
 
-Pour stocker les données, nous avons choisi Cassandra nous permettant de gérér l'importante 
-volumétrie des donnés de l'année 2018 que nous avons considéré pour implémenter les différentes requêtes. 
-Afin de pou 
-
-Cassandra est très rapide quand il s'agit de manipuler un volume important de données. 
+Pour stocker les données, nous avons choisi Cassandra. Cassandra est une solution offrant une capacité de réponse rapide quand il s'agit de manipuler un volume important de données. 
 Grâce à sa représentation en colonnes, cette base de données non relationnelle permet d'avoir des schémas de données flexibles, 
 même s'il est essentiel de penser à comment modéliser les données en amont. Son architecture lui permet d'évoluer dans un environnement distribué. 
 
